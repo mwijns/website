@@ -10,14 +10,8 @@ div
 
 div.box
 {
-    border-style: solid;
-    border-width: 0px;
-    border-color: #454344;
-    border-radius: 6px;
     padding: 20px;
     margin: 10px;
-
-    box-shadow: 0 0 5px 5px #888;
 }
 
 div#header
