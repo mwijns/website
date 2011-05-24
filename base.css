@@ -1,6 +1,7 @@
 body
 {
     color: #454344;
+    background: url(background.jpg) no-repeat;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
 
@@ -18,9 +19,12 @@ div#header
 {
     position: absolute;
     top: 0px;
-    height: 100px;
+    height: 30px;
     left: 0px;
-    width: 100%;
+    width: 80%;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px #888;
 }
 
 div#navigation
@@ -38,4 +42,47 @@ div#content
     left: 0px;
     right: 200px;
     bottom: 0px;
+}
+
+.navbox
+{
+    position: relative;
+    float: left;
+}
+
+ul.nav 
+{
+    list-style: none;
+    display: block;
+    width: 200px;
+    position: relative;
+    padding: 60px 0 60px 0;
+    background: url(shad2.png) no-repeat;
+    background-size: 50% 100%;
+}
+
+li
+{
+    margin: 5px 0 0 0;
+}
+
+ul.nav li a 
+{
+    transition: all 0.3s ease-out;
+    background: #cbcbcb url(border.png) no-repeat;
+    color: #174867;
+    padding: 7px 15px 7px 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 90px;
+    display: block;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px #888;
+}
+
+ul.nav li a:hover 
+{
+    background: #ebebeb url(border.png) no-repeat;
+    color: #67a5cd;
+    padding: 7px 15px 7px 20px;
 }
